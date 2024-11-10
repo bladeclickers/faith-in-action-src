@@ -1,0 +1,7 @@
+res://Scenes/Levels/Level_01.tscn::c381cb906830831bf7798628855d7af4::1731139650::res://.godot/exported/133200997/export-86e3b7f09a70caf62d5231584dc34433-Level_01.scn
+res://Scenes/Managers/AudioManager.tscn::8c28d3b009b45e7a50342a11814c7522::1730262035::res://.godot/exported/133200997/export-3e8f9adf23e4f39f5ef9b75ee3903e55-AudioManager.scn
+res://Scenes/Managers/SceneTransition.tscn::a5de570d2ed6e114ab988c5959849a03::1731139650::res://.godot/exported/133200997/export-bc6bae547a6390b05fcf3a2389a48f7d-SceneTransition.scn
+res://Scenes/Prefabs/Coin.tscn::a6cce0004e9739d6ca953685f9cf62a9::1730262035::res://.godot/exported/133200997/export-ac5ed41dfc0626a6addabdf95743897a-Coin.scn
+res://Scenes/Prefabs/LevelFinishDoor.tscn::683dce5d1cb3f72050e74356334de3cf::1730262035::res://.godot/exported/133200997/export-b992852d889096939653c5cd596fc8bd-LevelFinishDoor.scn
+res://Scenes/Prefabs/player.tscn::355d9537bf06f1ef9089a5dbf6fdca9f::1731139650::res://.godot/exported/133200997/export-4e8c3ac095851cd7f9b0c2ba6b10aaf9-player.scn
+res://mp.tscn::71f0257010605a696dc93da9cb378dc8::1731139650::res://.godot/exported/133200997/export-4156e8831d14dd400a6f7b6e5eaa0c46-mp.scn
