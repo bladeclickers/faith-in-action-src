@@ -1,8 +1,6 @@
 res://Scenes/Levels/Level_01.tscn
-res://Scenes/Prefabs/multiplayer_synchronizer.gd
 res://Scenes/Managers/SceneTransition.tscn
 res://Scenes/Prefabs/player.tscn
 res://mp.tscn
-res://Scripts/player.gd
-res://control.gd
 res://Scenes/Levels/level_01s.gd
+res://control.gd

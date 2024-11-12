@@ -35,5 +35,10 @@ position = Vector2(565, 162.125)
 scale = Vector2(0.269444, 0.270139)
 texture = ExtResource("2_xa3gj")
 
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("res://Scenes/Levels/Level_01.tscn")
+spawn_path = NodePath("..")
+spawn_limit = 1
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressedewf"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressedZCS"]

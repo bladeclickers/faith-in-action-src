@@ -1,26 +1,19 @@
 extends Node2D
 
-signal readyforpeerspawn
-
 func _ready() -> void:
-	_on_connected.rpc()
+	if multiplayer.is_server():
+		_on_connected.rpc()
+	else:
+		multiplayer.peer_connected.connect(_on_connected.rpc)
 
 @rpc("call_local")
 func _on_connected():
+	print("aaa")
 	var players = multiplayer.get_peers()
 	
-	if multiplayer.is_server():
-		add_player(multiplayer.get_unique_id())
-		for peer in players:
-			add_player(peer)
-			print(peer)
-			readyforpeerspawn.emit()
-	else:
-		await readyforpeerspawn
-		add_player(multiplayer.get_unique_id())
-		for peer in players:
-			add_player(peer)
-			print(peer)
+	add_player(multiplayer.get_unique_id())
+	for peer in players:
+		add_player(peer)
 
 func _exit_tree():
 	if not multiplayer.is_server():
